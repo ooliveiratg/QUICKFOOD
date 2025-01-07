@@ -1,0 +1,585 @@
+@import "var.css";
+body{
+  
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.cabecalho{
+
+
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonteP);
+ 
+ 
+
+}
+
+.cabecalho>h3{
+    opacity: 60%;
+   
+}
+
+.home:hover{
+    color: var(--verde);
+   
+}
+.product:hover{
+    color: var(--verde);
+}
+
+.contact:hover{
+    color: var(--verde);
+}
+
+.about:hover{
+    color: var(--verde);
+}
+
+
+
+h1{
+color: var(--verde);
+
+text-decoration: underline var(--verde);
+text-underline-offset: 25%;
+font-size: 2rem;
+margin-right: 15%;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+    margin:5% ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+ color:var(--verde); 
+ font-size: 1.3rem;
+ border: 1px solid var(--verde);
+ border-radius: 10px;
+ padding:1rem 1rem 2.5rem 1rem;
+ width: 105px;
+ height: 51px;
+ text-align: center;
+
+}
+
+.mainPage{
+    display: flex;
+    align-items: center;
+    flex-direction: start;
+    gap: 124px;
+    margin-bottom: 15%;
+    margin-left: 10%;
+
+    
+    
+}
+.mainFood{
+    margin-left: 5%;
+}
+
+.mainText{
+text-align: start;
+width: 563px;
+height: 160px;
+font-size:3.6rem ;
+font-family: var(--fonteP);
+
+
+}
+
+h2>strong{
+    color: var(--verde);
+}
+
+.mainFood p{
+    font-family: var(--fonteP);
+    width: 500px;
+    height: 11px;
+    text-align: start;
+    font-size: 1.2rem;
+    opacity: 60%;
+    margin-bottom: 55%;
+    
+   
+}
+div>a{
+
+border: 1px solid var(--verde);
+font-family: var(--fonteP);
+font-size:16px;
+background: none;
+border-radius: 10px;
+padding: 16px;
+cursor: pointer;
+background-color: var(--verde);
+color: white;
+margin-right: 10%;
+width: 144px;
+height: 51px;
+}
+div>a:hover{
+    opacity: 30%;
+}
+
+.food{
+    width: 651px;
+    height: 494px;
+   
+  
+}
+
+.secondPage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--light-grey);
+   
+}
+
+.secondPage>h2{
+    font-size: 48px;
+    font-family: var(--secondFont);
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+.secondPage>p{
+    font-family: var(--fonteP);
+}
+
+.secondParagraph{
+margin-bottom: 5%;
+
+}
+
+.secondPage>.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    gap: 16%;
+    
+    
+}
+
+.secondPage>div>img{
+   
+    width: 218px;
+    height: 218px;
+   
+}
+
+.secondText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-right: 3%;
+}
+.secondText>div{
+    display: flex;
+    flex-direction: column;
+    
+
+   
+}
+
+.secondText>div> h3{
+    text-align: center;
+    font-family: var(--fonteP);
+    font-size: 28px;
+    
+}
+
+.secondText>div>p{
+    text-align: center;
+    width: 242px;
+    height: 63px;
+    opacity: 60%;
+    font-family: var(--fonteP);
+    font-size: 18px;
+  
+   
+
+}
+
+.secondText>div>h4{
+    font-size:48px ;
+    font-family: var(--fonteP);
+    margin-left: 2%;
+}
+
+.secondText>div>.textMargin{
+    margin-bottom: 3%;
+}
+
+.thirdPage{
+    
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+.thirdPage>h2{
+  
+    font-size: 48px;
+    font-family: var(--fonteP);
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.thirdPage>.secondContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+.img{
+    
+    width: 290px ;
+    height: 242.65px;
+   
+}
+
+.bread{
+    width: 195px;
+    height: 242px;
+    
+}
+
+.thirdText{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fonteP);
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.thirdText>div{
+    align-items: center;
+    justify-items: center;
+    
+}
+.thirdText>div>h3{
+    margin-bottom: 3%;
+}
+.thirdText>div>p{
+    width: 279px;
+    height: 58px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 60%;
+    margin-bottom: 25%;
+    
+}
+.thirdText>div>button{
+
+    cursor: pointer;
+    background-color: var(--verde);
+    width: 352px;
+    height: 53px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 40%;
+
+}
+
+.fourthPage{
+    font-family: var(--fonteP);
+    background-color: var(--light-grey);
+
+    
+ 
+}
+
+.fourthPage>h2{
+ text-align: center;   
+ font-size: 48px ;
+ background-color: var(--light-grey);
+ padding-top: 3%;
+
+
+}
+
+.fourthPage>p{
+    text-align: center ;
+    opacity: 60%;
+    margin-bottom:5% ;
+    
+}
+
+.fourthPage>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+
+}
+
+.fourthPage>div>.block{
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: white;
+    padding: 40px;
+    width: 399px;
+    height: 400px;
+    margin-bottom: 5%;
+}
+
+.fourthPage>div>div>img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 24px;
+    
+}
+.fourthPage>div>div>h2{
+    font-size: 28px;
+    margin-bottom: 16px;
+   
+}
+
+
+.fourthPage>div>div>p{
+    font-size: 18px;
+    width:319px;
+    height: 84px;
+    text-align: center;
+   
+}
+.fifthPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 8%;
+    font-family: var(--fonteP);
+}
+.fifthPage>div{
+justify-content: center;
+}
+
+.fifthPage>div>h2{
+    font-size: 40px;
+    padding-top: 200px;
+    margin-bottom: 3%;
+}
+.fifthPage>div>p{
+    font-size: 18px;
+    width: 558px;
+    height: 116px;
+    text-align: left;
+    margin-bottom: 40%;
+}
+
+.fifthPage>img{
+    width: 552.08px;
+    height:480px ;
+    transform: rotate(360deg);
+    padding-top:100px;
+
+    
+
+}
+
+.fifthPage>div>button{
+    border: 1px solid var(--verde);
+    font-family: var(--fonteP);
+    font-size:16px;
+    background: none;
+    border-radius: 10px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: var(--verde);
+    color: white;
+    margin-right: 10%;
+    width: 144px;
+    height: 51px;
+    margin-bottom: 6%;
+}
+
+.sixthPage{
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    font-family: var(--fonteP);
+    background-color: var(--light-grey);
+    overflow: hidden;
+}
+
+.sixthPage>h2{
+    font-size: 48px;
+    padding-top: 3% ;
+    margin-bottom: 16px;
+    
+}
+
+.sixthPage p{
+    font-size: 18px;
+    opacity: 60%;
+    margin-bottom: 60px;
+}
+
+.sixthPage >div>input{
+
+    width: 682px;
+    height: 77px;
+    border: 0.5px solid rgba(187, 186, 186, 0.63);
+    padding: 28px 0px 28px 24px ;
+    border-radius: 8px;
+   
+    
+}
+.sixthPage>div{
+ position: relative;
+ left:78px ;   
+ 
+}
+
+#btnBusca{
+
+    position: relative;
+    right: 9%;
+    border: 1px solid var(--verde);
+    font-family: var(--fonteP);
+    font-size:16px;
+    background: none;
+    border-radius: 10px;
+    padding: 16px;
+    cursor: pointer;
+    background-color: var(--verde);
+    color: white;
+    width: 144px;
+    height: 51px;
+    margin-bottom: 6%;
+}
+
+footer{
+    background-color: var(--verde);
+    font-family:var(--fonteP) ;
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+
+    
+
+}
+
+footer div{
+    align-items: center;
+ 
+    
+    
+}
+
+footer h2{
+    padding-top : 100px;
+    font-size: 24px;
+}
+
+footer .textSeventh{
+    font-size: 24px;
+
+    margin-bottom: 13%;
+    width: 292px;
+    height: 32px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+
+
+  
+}
+footer .iconSeven{
+   
+    display: flex;
+    justify-content:start ;
+    gap: 16px;
+    
+   
+
+    
+}
+footer img{
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.iconFooter{
+    
+    width: 24px;
+    height: 24px;
+}
+
+.iconInsta{
+    width: 20px;
+    height: 20px;
+}
+
+footer .Company{
+    margin-left: 24px;
+
+}
+footer .Company h2{
+    width: 281px;
+    height: 138px;
+}
+footer p{
+    opacity: 60%;
+    margin-bottom: 10%;
+    font-size: 18px;
+}
+
+footer p:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+footer .subTxt{
+    width: 90px;
+    
+}
+
+.sub{
+    width: 60px;
+    
+}
+
+.support{
+    width: 61px;
+    
+}
+
+footer .privacy{
+    width: 124px;
+   
+}
+
+footer .subTxt2{
+    width: 155px;
+   
+}
+
+.final{
+    border-top: 1px solid white ;
+    text-align: center;
+    background-color: var(--verde);
+    color: white;
+    font-family:var(--fonteP) ;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.final h3{
+    font-size: 20px;
+    
+}
